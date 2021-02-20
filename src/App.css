@@ -1,0 +1,36 @@
+.App {
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 7vh;
+  background: rgb(0, 0, 0);
+  color: white;
+}
+
+.nav-links {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  color: white;
+}
+
+img {
+  width: 75%;
+  height: 75%;
+}
+
+.results-container {
+  text-align: center;
+}
+
+ul {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  list-style: none;
+  padding-left: 0;
+}
